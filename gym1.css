@@ -1,0 +1,85 @@
+body{
+    background: url('x.png');
+    padding: 0px;
+    margin: 0px ;
+}
+.left{
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+}
+.mid{
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+}
+.right{
+    position: absolute;
+    right: 34px;
+   top: 20px;
+   display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+   text-decoration: none;
+   padding: 50px 3px;
+   margin: 15px;
+  
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.left img{
+    width: 90px;
+}
+.left div{
+    font-size: 20px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: grey;
+    padding: 3px 15px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
+.container{
+   
+    margin:127px 436px;
+    width:33%;
+    padding:70px 44px;
+    border-radius: 6px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 448px;
+    padding: 6px;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+.container h2{
+    color: white;
+    text-align: center;
+}
+.container button {
+   display: block;
+   margin: 9px auto;
+   width: 96%;
+   border:2px solid black;
+
+}
